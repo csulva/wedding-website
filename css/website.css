@@ -673,6 +673,7 @@ html {
     font-family: sans-serif, helvetica;
     letter-spacing: 1px;
     line-height: 1.5;
+    height:300vh;
   }
   
   .master-container {
