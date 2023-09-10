@@ -35,16 +35,20 @@ class Login {
 			);
 			return false;
 		} else {
-			if (field.value === "vermont2024") {
-					this.setStatus(field, null, "success");
-					return true;
-				}
-			 else {this.setStatus(
+			if ((field.id === "username" && field.value === "chrisandsara") || (field.id === "password" && field.value === "vermont2024")) {
+			// Check both username and password
+			this.setStatus(field, null, "success");
+			this.setStatus(field.nextElementSibling, null, "success");
+			return true;
+		} else {
+			// Handle incorrect username or password
+			this.setStatus(
 				field,
-				`${field.previousElementSibling.innerText} cannot be blank`,
+				`Incorrect ${field.previousElementSibling.innerText}`,
 				"error"
 			);
-            }
+			return false;
+			}
 		}
 	}
 
