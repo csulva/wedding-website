@@ -32,19 +32,21 @@
             <button class="button" type="submit">Login</button>
         </form>
     </div>
+
+    <script>
+        function login() {
+          const username = document.getElementById("username").value;
+          const password = document.getElementById("password").value;
+      
+          // Check username and password (replace with your logic)
+          if (username === "your_username" && password === "your_password") {
+            window.location.href = "website.html"; // Redirect to the website
+          } else {
+            alert("Invalid username or password");
+          }
+        }
+      </script>
 </body>
 
-<script>
-    function login() {
-      const username = document.getElementById("username").value;
-      const password = document.getElementById("password").value;
-  
-      // Check username and password (replace with your logic)
-      if (username === "your_username" && password === "your_password") {
-        window.location.href = "website.html"; // Redirect to the website
-      } else {
-        alert("Invalid username or password");
-      }
-    }
-  </script>
+
 </html>
