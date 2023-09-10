@@ -6,14 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="/css/style.min.css">
-    <script defer src="/js/login.js"></script>
+    <!-- <script defer src="/js/login.js"></script> -->
+
+
 </head>
 <div>
     <img src="images/maspace.png" alt="Image Description" style="width: 10%;">
 </div>
 
 <body class="login">
-    <div class="container">
+
+  <form id="loginForm">
+    <!-- Label and input for username -->
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="Enter your username">
+    <br>
+    <br>
+    <!-- Label and input for password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password">
+    <br>
+    <br>
+
+    <button type="submit">Login</button>
+  </form>
+
+
+    <!-- <div class="container" id="loginForm">
         <h2 class="text-center">Login</h2>
         <br>
         <form action="./website.html" class="loginForm">
@@ -31,21 +50,43 @@
             <br>
             <button class="button" type="submit">Login</button>
         </form>
-    </div>
+    </div> -->
+
+    <div id="username-error" style="display: none; color: red;">Invalid username</div>
+    <div id="password-error" style="display: none; color: red;">Invalid password</div>
+
 
     <script>
-        function login() {
-          const username = document.getElementById("username").value;
-          const password = document.getElementById("password").value;
-      
-          // Check username and password (replace with your logic)
-          if (username === "your_username" && password === "your_password") {
-            window.location.href = "website.html"; // Redirect to the website
-          } else {
-            alert("Invalid username or password");
-          }
+      function login() {
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+        const usernameError = document.getElementById("username-error");
+        const passwordError = document.getElementById("password-error");
+    
+      // Check username and password (replace with your logic)
+      if (username === "chris" && password === "test") {
+        window.location.href = "website.html"; // Redirect to the website
+      }     // Reset error messages to hide any previous errors
+        usernameError.style.display = "none";
+        passwordError.style.display = "none";
+
+        // Check for incorrect username and password separately
+        if (username !== "chris") {
+          usernameError.style.display = "block";
         }
-      </script>
+        if (password !== "test") {
+          passwordError.style.display = "block";
+        }
+      }
+
+          // Add an event listener to the form
+      document.getElementById("loginForm").addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent the default form submission
+          login(); // Call the login function when the form is submitted
+      });
+
+    </script>
+
 </body>
 
 
