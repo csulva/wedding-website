@@ -58,8 +58,8 @@
 
     <script>
       function login() {
-        const username = document.getElementById("username").value;
-        const password = document.getElementById("password").value;
+        const username = document.getElementById("username").value.toLowerCase();
+        const password = document.getElementById("password").value.toLowerCase();
         const usernameError = document.getElementById("username-error");
         const passwordError = document.getElementById("password-error");
     
