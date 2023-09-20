@@ -501,7 +501,7 @@ html {
   
   .friends p:nth-of-type(1) {
     margin-top: 0;
-    margin-left: 15px;
+    text-align: center;
   }
   
   .focus-highlight {
