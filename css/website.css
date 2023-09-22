@@ -703,13 +703,13 @@ html {
   
   section,
   .profile-picture-container {
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 231, 231, 0.6);
     padding: 1rem;
     margin-bottom: 1rem;
   }
   
   .profile-sidebar header {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 1rem 1rem 0;
   }
   
@@ -937,6 +937,53 @@ html {
   .active, .accordion:hover {
     background-color: #ffecec;
   }
+
+  .accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.accordion1 {
+  background-color: #fbeeee;
+  opacity: 75%;
+  font-family: sans-serif, helvetica;
+  font-size: medium;
+  font-weight: bolder;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion1:hover {
+  background-color: #ffecec;
+}
+
+.accordion1:after {
+content: '\002B';
+color: #777;
+font-weight: bold;
+float: right;
+margin-left: 5px;
+}
+
+.active:after {
+content: "\2212";
+}
+
+
   
   /* Style the accordion panel. Note: hidden by default */
   .panel {
