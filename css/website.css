@@ -39,6 +39,10 @@ html {
     text-align: center;
   }
 
+  h2 a:link {
+    color: green;
+  }
+
   h4 {
     font-size: 18pt;
     margin: 0;
@@ -513,7 +517,7 @@ html {
   .friend-pic-container {
     display: grid;
     grid-template-columns: repeat(4, 109px);
-    grid-template-rows: 160px 193px;
+    /* grid-template-rows: 160px 193px; */
   }
   
   .friend-pic-container figure {
@@ -820,7 +824,7 @@ html {
   }
   
   section a {
-    color: #fff !important;
+    color: #000d9b !important;
     text-decoration: underline;
   }
   
@@ -911,3 +915,38 @@ html {
       width: 95%
     }
   }
+
+
+  .accordion {
+    background-color: #fbeeee;
+    opacity: 75%;
+    font-family: sans-serif, helvetica;
+    font-size: medium;
+    font-weight: bolder;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ffecec;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    font-family: sans-serif, helvetica;
+    font-size: small;
+    font-weight: bold;
+    background-color: white;
+    opacity: 75%;
+    display: none;
+    overflow: hidden;
+  }
+  
