@@ -72,20 +72,20 @@
       <!-- Profile Picture -->
       <div id="hover-image" class="popup-img">
         <span>&times</span>
-        <img src="images/image1.jpg" alt="" onclick="closeImage()">
+        <img src="images/imagee33.jpeg" alt="" onclick="closeImage()">
       </div>
 
       <div class="profile-picture-container">
-        <img id="prof-pic" class="profile-pic" src="images/image1.jpg" alt="A profile picture of Tom, the creator of MySpace." onclick="changeImage()">
+        <img id="prof-pic" class="profile-pic" src="images/imagee33.jpeg" width="150" height="150" alt="A profile picture of Tom, the creator of MySpace." onclick="changeImage()">
         
         <script>
           function changeImage() {
             let displayImage = document.getElementById("prof-pic")
             let hoverImage = document.getElementById("hover-image")
-            if(displayImage.src.match("images/image1.jpg")){
+            if(displayImage.src.match("images/imagee33.jpeg")){
               hoverImage.style.display = "inherit";
             } else {
-              displayImage.src = "images/image1.jpg"
+              displayImage.src = "images/imagee33.jpeg"
             }
           }
 
@@ -386,18 +386,6 @@
       </section>
 
 
-      <section class="blurbs">
-        <header class="main-section-header">
-          <h2 class="main-section-h2">Tom's Blurbs</h2>
-        </header>
-
-        <h2 id="song">Our Song</h2>
-        <br/>
-        <iframe width="410" height="230" src="https://www.youtube.com/embed/wROK0HVVkK4?si=PvNNp05hM3TgH9tk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        <br />
-        <br />
-      </section>
-
-
       <section class="friends">
         <header class="main-section-header">
           <h2 class="main-section-h2">xxlilcrysxx's Friend Space</h2>
@@ -572,6 +560,18 @@
           </script>
           
         </section>
+
+        <section class="blurbs">
+          <header class="main-section-header">
+            <h2 class="main-section-h2">Tom's Blurbs</h2>
+          </header>
+  
+          <h2 id="song">Our Song</h2>
+          <br/>
+          <iframe width="410" height="230" src="https://www.youtube.com/embed/wROK0HVVkK4?si=PvNNp05hM3TgH9tk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        <br />
+          <br />
+        </section>
+  
   
 
       <section class="details" id="location">
@@ -583,6 +583,8 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2869.0680156128765!2d-73.32408492405612!3d44.019988971087145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb55f649ef4ca7b%3A0xf8d281b6711edd46!2sThe%20Vermont%20Wedding%20Barn!5e0!3m2!1sen!2sus!4v1689213822800!5m2!1sen!2sus" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </table>
       </section>
+
+      
 
     </main>
 
