@@ -979,6 +979,37 @@ float: right;
 margin-left: 5px;
 }
 
+
+
+.accordion2 {
+  background-color: #fbeeee;
+  opacity: 75%;
+  font-family: sans-serif, helvetica;
+  font-size: medium;
+  font-weight: bolder;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion2:hover {
+  background-color: #ffecec;
+}
+
+.accordion2:after {
+content: '\002B';
+color: #777;
+font-weight: bold;
+float: right;
+margin-left: 5px;
+}
+
 .active:after {
 content: "\2212";
 }
@@ -996,4 +1027,5 @@ content: "\2212";
     display: none;
     overflow: hidden;
   }
+
   
