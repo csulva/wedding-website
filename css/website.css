@@ -689,7 +689,7 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow-y: scroll;
-    /* background-repeat: repeat-y; */
+    background-repeat: repeat-y;
     background-position: center 75%;
     font-family: sans-serif, helvetica;
     letter-spacing: 1px;
