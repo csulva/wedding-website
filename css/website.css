@@ -579,13 +579,13 @@ html {
   
   .comment-wall table {
     margin: auto;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
   }
   
   .comment-wall th {
     background-color: rgb(255, 153, 51);
     width: 158px;
-    padding: 3px;
+    padding: 1px;
     vertical-align: top;
   }
   
@@ -869,6 +869,10 @@ html {
   }
   
   .friend-pic-container img:hover {
+    transform: scale(1.1);
+  }
+
+  .comment-wall img:hover {
     transform: scale(1.1);
   }
   
