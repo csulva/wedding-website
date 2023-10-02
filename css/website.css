@@ -177,7 +177,7 @@ html {
   .navbar li::after {
     content: "|";
     margin: 0.33rem;
-    color: black;
+    color: rgb(70, 53, 53);
   }
   
   .navbar li:last-child::after {
