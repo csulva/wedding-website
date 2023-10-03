@@ -896,6 +896,11 @@ html {
     transform: scale(1.1);
   }
 
+  .details img:hover {
+    transform: scale(1.1);
+  }
+
+
   .comment-wall img:hover {
     transform: scale(1.1);
   }
