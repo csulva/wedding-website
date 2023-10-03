@@ -106,6 +106,7 @@
           <li>Engaged</li>
           <li>3 years old</li>
           <li>Vermont, USA</li>
+          <li id="countdown"></li>
         </ul>
 
         <ul class="last-login">
@@ -126,9 +127,23 @@
 
         <h2 id="about-us">About us</h2>
         <p>
-          <em>It just takes some time little girl, you're in the middle of the ride.<br /> <br />
-            Everything, everything will be just fine
-            everything, everything will be alright, alright <br /> <br /> &hearts;</em>
+            Sara and Chris met in 2009 at Champlain Valley Union High School and instantly became buds. They developed a strong bond through long runs at track practice and their shared love of soccer.
+            Over the years they became best friends, and did everything together, from weekly trivia nights, dance nights at Lamp Shop, to Chris going Christmas tree shopping with the Lewis Family.
+            <br /> <br />
+            In 2020, after 11 years of friendship, Sara was finishing up PA school completing rotations in American Samoa, when one day she received a Valentine's Day card from Chris.
+            Shortly after, Sara returned to the States just as the pandemic hit. During the time of Among Us, Tiger King, and group zoom hangouts, the group sessions quickly turned to 
+            Sara and Chris hangout sessions. One night Sara blurted out how she was feeling,
+            only for Chris to say he was feeling the exact same way. Chris asked Sara to be his girlfriend on June 1st, 2020, one day after saying "I love you", and two days after saying they will one day get married.
+
+            <br /> <br />
+            Since dating they have traveled to 18 states, had Sara's first trip outside the country to Ireland (thank you Griff and El), have been to 7 concerts
+            (Genesis, Peter Gabriel, Almost Queen, LOTR in Concert, Journey/Toto, King Crimson, and Guster), 16 weddings, 3 Broadway plays, and moved to Connecticut to start their life together.
+
+            <br /> <br />
+            
+            Chris proposed on June 2nd, 2023 in Vermont after months of elaborate scheming. He serenade Sara on his fiddle to the tune of "Some Things Never Change" from <em>Frozen 2</em>, a movie treasured by Sara that they watched in theaters together in 2019.
+            <br /> <br />
+            They are so excited to get married and start this next chapter of their 14-year friendship and cannot wait to celebrate with you all. Get ready for a long night of partying, featuring Chris' eclectic music taste, margaritas, and many, many alpacas.</em>
 
       </section>
 
@@ -259,7 +274,7 @@
 
           <tbody>
             <tr>
-              <th class="sidebar-table-header" scope="row">Status:</th>
+              <th class="sidebar-table-header" scope="row">Sara's Status:</th>
               <td class="sidebar-table-data">Engaged</td>
             </tr>
 
@@ -397,11 +412,49 @@
     <!-- Main Section -->
     <main>
     
-      <section class="user-network">
+    <section class="user-network">
         <header>
           <h1>Welcome to Chris and Sara's wedding space!</h1>
+          <!-- <p id="countdown"></p> -->
         </header>
-      </section>
+    <script>
+
+        CountDownTimer('09/14/2024 10:1 AM', 'countdown');
+
+        function CountDownTimer(dt, id)
+        {
+            var end = new Date(dt);
+
+            // var _second = 1000;
+            // var _minute = _second * 60;
+            var _hour = 60000 * 60;
+            var _day = _hour * 24;
+            var timer;
+
+            function showRemaining() {
+                var now = new Date();
+                var distance = end - now;
+                if (distance < 0) {
+
+                    clearInterval(timer);
+                    document.getElementById(id).innerHTML = 'Bells are ringing!';
+
+                    return;
+                }
+                var days = Math.floor(distance / _day);
+                // var hours = Math.floor((distance % _day) / _hour);
+                // var minutes = Math.floor((distance % _hour) / _minute);
+                // var seconds = Math.floor((distance % _minute) / _second);
+
+                document.getElementById(id).innerHTML = days + ' days away!';
+            }
+
+            timer = setInterval(showRemaining, 1000);
+        }
+
+    </script>
+
+    </section>
 
       <!-- MySpace URL -->
       <!-- <section class="myspace-url-box">
@@ -464,6 +517,19 @@
       </section>
 
     </section>
+
+    <section class="details">
+      <table class="sidebar-table">
+
+        <caption>
+          <h2 class="sidebar-table-h2">Tom's Details</h2>
+        </caption>
+
+        <img src="images/image3_1.jpeg" height="315" width="420">
+
+      </table>
+    </section>
+
 
 
       <section class="drop-down">
@@ -562,18 +628,6 @@
           <br />
         </section>
 
-        <section class="details">
-          <table class="sidebar-table">
-  
-            <caption>
-              <h2 class="sidebar-table-h2">Tom's Details</h2>
-            </caption>
-  
-            <img src="images/image3_1.jpeg" height="315" width="420">
-  
-          </table>
-        </section>
-
       <section class="details">
         <table class="sidebar-table">
 
@@ -583,7 +637,7 @@
 
           <tbody>
             <tr>
-              <th class="sidebar-table-header" scope="row">Status:</th>
+              <th class="sidebar-table-header" scope="row">Chris' Status:</th>
               <td class="sidebar-table-data">Engaged</td>
             </tr>
 
