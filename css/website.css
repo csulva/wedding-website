@@ -506,6 +506,11 @@ html {
   Friend Space
   ========================================
   */
+  .friends {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
   .friends header {
     margin-bottom: 6px;
   }
@@ -523,7 +528,7 @@ html {
   
   .friend-pic-container {
     display: grid;
-    grid-template-columns: repeat(4, 109px);
+    grid-template-columns: repeat(4, 113px);
     /* grid-template-rows: 160px 193px; */
   }
   
@@ -550,7 +555,7 @@ html {
   
   .friends-list-link {
     margin-top: 7px;
-    margin-right: 8px;
+    margin-right: 0px;
     margin-bottom: 30px;
   }
   
@@ -875,6 +880,7 @@ html {
   .comment-wall img:hover {
     transform: scale(1.1);
   }
+
   
   .contact-box {
     background: url("https://www.colemanconcierge.com/wp-content/uploads/2021/06/Mistletoe-Farms-Alpacas-2-1024x682.jpg")
