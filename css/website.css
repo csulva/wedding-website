@@ -72,8 +72,6 @@ html {
     margin: auto;
     width: 920px;
     background-color: white;
-    /* max-width: 100%; */
-    /* padding: 0 20px; Add some padding for better spacing on small screens */
   }
 
   @media (max-width: 768px) {
