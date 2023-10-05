@@ -71,6 +71,8 @@ html {
     margin: auto;
     width: 920px;
     background-color: white;
+    max-width: 100%;
+    padding: 0 20px; /* Add some padding for better spacing on small screens */
   }
   
   /*
@@ -78,6 +80,7 @@ html {
   Main Header
   ========================================
   */
+  /* @media screen and (min-width: 780px)  */
   .main-header {
     display: flex;
     flex-direction: column;
@@ -86,6 +89,7 @@ html {
     background-color: rgb(0, 51, 153);
     color: #ffffff;
   }
+
 
   
   .main-header ul {
