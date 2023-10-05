@@ -67,6 +67,7 @@ html {
   Master Container
   ========================================
   */
+  
   .master-container {
     margin: auto;
     width: 920px;
@@ -74,6 +75,13 @@ html {
     /* max-width: 100%; */
     /* padding: 0 20px; Add some padding for better spacing on small screens */
   }
+
+  @media (max-width: 768px) {
+    .master-container {
+      padding: 10px; /* Reduce padding for smaller screens */
+    }
+  }
+  
   
   /*
   ========================================
