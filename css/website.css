@@ -74,12 +74,13 @@ html {
     background-color: white;
   }
 
-  /* @media (max-width: 768px) {
+  @media (max-width: 768px) {
     .master-container {
-      padding-left: 10%;
-      padding-right: 10%
+      /* padding-left: 10%;
+      padding-right: 10% */
+      margin: auto;
     }
-  } */
+  }
   
   
   /*
