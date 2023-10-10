@@ -70,16 +70,10 @@ html {
   
   .master-container {
     margin: auto;
-    width: 925px;
+    width: 920px;
     background-color: white;
   }
 
-  @media (max-width: 768px) {
-    .master-container {
-      padding: 10px; /* Reduce padding for smaller screens */
-      width: 925px;
-    }
-  }
   
   
   /*
