@@ -76,7 +76,7 @@ html {
 
   @media (max-width: 768px) {
     .master-container {
-      padding-right: 10%;
+      padding-left: 10%;
     }
   }
   
