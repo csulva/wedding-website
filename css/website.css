@@ -77,8 +77,6 @@ html {
   @media (max-width: 768px) {
     .master-container {
       padding-left: 10%;
-      margin-left: 10px;
-      margin-right: 10px;
     }
   }
   
