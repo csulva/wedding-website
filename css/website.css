@@ -74,11 +74,6 @@ html {
     background-color: white;
   }
 
-  @media (max-width: 768px) {
-    .master-container {
-      padding-left: 10%;
-    }
-  }
   
   
   /*
