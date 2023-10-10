@@ -76,7 +76,7 @@ html {
 
   @media (max-width: 768px) {
     .master-container {
-      padding: 100px; /* Reduce padding for smaller screens */
+      padding-right: 10%;
     }
   }
   
