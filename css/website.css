@@ -242,9 +242,9 @@ html {
   */
   .profile-picture-container {
     display: grid;
-    grid-template-columns: 170px 115px;
+    grid-template-columns: 170px 240px;
     grid-template-rows: 176px;
-    grid-column-gap: 15px;
+    grid-column-gap: 20px;
     margin-bottom: 12px;
   }
   
