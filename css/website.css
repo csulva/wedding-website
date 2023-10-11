@@ -1082,7 +1082,7 @@ content: "\2212";
     overflow: hidden;
   }
 
-  @media only screen and (max-width: 600px) {
+  /* @media only screen and (max-width: 600px) {
   
   .page-content-container {
   width: 450px;
@@ -1111,7 +1111,7 @@ content: "\2212";
   
   .friend-pic-container {
       display: grid;
-      grid-template-columns: repeat(2, 113px);
+      grid-template-columns: none;
       grid-template-rows: none;
   }
   
@@ -1133,6 +1133,6 @@ content: "\2212";
   }
      
   }
-  
+   */
 
   
