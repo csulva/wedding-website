@@ -1111,7 +1111,7 @@ content: "\2212";
   
   .friend-pic-container {
       display: grid;
-      grid-template-columns: none;
+      grid-template-columns: repeat(2, 113px);
       grid-template-rows: none;
   }
   
