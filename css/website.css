@@ -1082,9 +1082,8 @@ content: "\2212";
     overflow: hidden;
   }
 
-  @media only screen and (max-width: 600px) {
+  /* @media only screen and (max-width: 600px) {
   
-  /*
   .page-content-container {
   width: 450px;
   display: inline-block;
@@ -1095,13 +1094,12 @@ content: "\2212";
       width: 100%;
       margin: auto;
   }
-  */
+  
   .master-container {
       display: grid;
       margin: auto;
       width: 87%;
   }
-  /*
   
   main {
       width: 100%;
@@ -1133,9 +1131,8 @@ content: "\2212";
       display: none;
       grid-template-columns: none;
   }
-  */
      
   }
-
+   */
 
   
