@@ -1215,7 +1215,7 @@ content: "\2212";
        
     } */ 
 
-    @media only screen and (max-width: 600px) {
+    /* @media only screen and (max-width: 600px) {
 
       .page-content-container {
       width: 375px;
@@ -1251,7 +1251,7 @@ content: "\2212";
       max-width: ...px
       }
       */
-         
+      /*
       }
-      
+       */
     
