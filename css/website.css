@@ -1218,7 +1218,7 @@ content: "\2212";
     @media only screen and (max-width: 600px) {
 
       .page-content-container {
-      width: 475px;
+      width: 375px;
       display: inline-block;
       align-items: center;
       }
@@ -1231,7 +1231,7 @@ content: "\2212";
       }
       
       section {
-          max-width: 400px;
+          max-width: 375px;
       }
       
       iframe {
@@ -1244,7 +1244,7 @@ content: "\2212";
       }
       
       .personal-msg {
-      max-width: 157px;
+      max-width: 175px;
       }
       
       /* knot-comment {
