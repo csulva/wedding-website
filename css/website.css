@@ -187,6 +187,7 @@ html {
     margin-top: auto;
     /* background-color: rgb(102, 153, 204); */
     height: 26px;
+    text-align: justify;
   }
   
   .navbar ul {
@@ -772,6 +773,7 @@ html {
     color: #000000 !important;
     font-family: Verdana;
     font-size: 15px;
+    text-align: justify;
     /* text-shadow: -1px 0 rgb(26, 22, 22), 0 1px rgb(26, 22, 22), 1px 0 rgb(26, 22, 22), 0 -1px rgb(26, 22, 22); */
     text-shadow: 1px 0 rgb(26, 22, 22);
   }
