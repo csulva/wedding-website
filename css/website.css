@@ -188,6 +188,7 @@ html {
   
   .navbar li::after {
     content: "|";
+    text-shadow: -1px 0 rgb(26, 22, 22), 0 1px rgb(26, 22, 22), 1px 0 rgb(26, 22, 22), 0 -1px rgb(26, 22, 22);
     margin: 0.33rem;
     color: rgb(70, 53, 53);
   }
@@ -771,6 +772,7 @@ html {
   
   .navbar li::after {
     color: white;
+    font-size: medium;
   }
   
   .footer {
