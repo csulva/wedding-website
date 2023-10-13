@@ -423,6 +423,10 @@ html {
   .details table {
     margin-bottom: 22px;
   }
+
+  .details2 table {
+    margin-bottom: 22px;
+  }
   
   /*
   ========================================
@@ -525,6 +529,24 @@ html {
 
   
   .blurbs p {
+    margin: 0 10px 15px 15px;
+    font-size: 14px;
+  }
+
+  .blurbs2 h3 {
+    margin: 0;
+    color: #ff6600;
+    font-size: 9pt;
+    margin-left: 15px;
+
+  }
+  
+  .blurbs2 p:nth-of-type(5) {
+    margin-bottom: 2em;
+  }
+
+  
+  .blurbs2 p {
     margin: 0 10px 15px 15px;
     font-size: 14px;
   }
@@ -875,6 +897,15 @@ html {
   .blurbs p {
     margin: 10px 0;
   }
+
+  .blurbs2 h3 {
+    margin: 0;
+    color: black;
+  }
+  
+  .blurbs2 p {
+    margin: 10px 0;
+  }
   
   .comment-wall th,
   .comment-wall td {
@@ -913,6 +944,10 @@ html {
   .details table {
     margin-bottom: 0px;
   }
+
+  .details2 table {
+    margin-bottom: 0px;
+  }
   
   .user-network {
     margin-bottom: 1rem;
@@ -929,6 +964,10 @@ html {
   }
 
   .details img:hover {
+    transform: scale(1.1);
+  }
+
+  .details2 img:hover {
     transform: scale(1.1);
   }
 
