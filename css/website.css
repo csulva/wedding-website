@@ -1313,3 +1313,28 @@ content: "\2212";
       }
        */
     
+    @media only screen and (max-width: 600px) {
+
+    .page-content-container {
+        display: grid;
+        grid-template-columns: 453px 453px;
+        grid-column-gap: 20px;
+        grid-template-areas: "sidebar main";
+    }
+    
+    .user-network h1{
+        margin: 0;
+        width: auto;
+        font-size: 23px;
+        text-align: center;
+        margin-bottom: auto;
+      }
+    
+      .blurbs2 iframe{
+        width: 390
+      }
+    
+      .details iframe{
+        width: 390
+      }
+    }
