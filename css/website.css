@@ -1317,7 +1317,7 @@ content: "\2212";
 
     .page-content-container {
         display: grid;
-        grid-template-columns: 453px 453px;
+        grid-template-columns: 453px 425px;
         grid-column-gap: 20px;
         grid-template-areas: "sidebar main";
     }
@@ -1336,5 +1336,9 @@ content: "\2212";
     
       .details iframe{
         width: 390
+      }
+
+      .details img {
+        width: 396
       }
     }
